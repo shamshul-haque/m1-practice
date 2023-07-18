@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blog{
+    margin: 30px;
+    border: 5px solid tomato;
+    box-shadow: 10px 10px 10px silver;
+}
+#incident{
+    border: 2px solid yellowgreen;
+}
+li{
+    display: inline-block;
+}
+.header{
+    text-align: center;
+    height: 500px;
+    background-image: url("../images/running.jpg");
+    background-size: contain;
+}

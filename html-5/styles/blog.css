@@ -1,0 +1,29 @@
+nav li{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: large;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+}
+
+footer p a{
+    text-decoration: none;
+}
+
+fieldset{
+    margin-top: 10px;
+}
+
+input[type="reset"]{
+    color: red;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="navigation.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="audio&vedio.html">Audio&Video</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Fill up the form</h1>
+        <form action="">
+            <label for="name"> Your Name:
+                <input type="text" name="" id="name" placeholder="Your Name">
+            </label>
+            <label for="email"> Your Email:
+                <input type="text" name="" id="email" placeholder="Your Email">
+            </label>
+            <label for="phone"> Your Phone:
+                <input type="text" name="" id="phone" placeholder="Your Phone">
+            </label>
+            <fieldset>
+                <legend>Pick one pitha</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">Chitoy
+                </label>
+                <label for="vapa">
+                    <input type="radio" name="pitha" id="vapa">Vapa
+                </label>
+                <label for="puri">
+                    <input type="radio" name="pitha" id="puri">Puri
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Pick one or more vorta</legend>
+                <label for="sorisa">
+                    <input type="checkbox" name="vorta" id="sorisa">Sorisa
+                </label>
+                <label for="shutki">
+                    <input type="checkbox" name="vorta" id="shutki">Shutki
+                </label>
+                <label for="chili">
+                    <input type="checkbox" name="vorta" id="chili">Chili
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <label for="">
+                    <textarea name="" id="" cols="75" rows="10"></textarea>
+                </label>
+            </fieldset>
+            <input type="reset" value="Reset" style="margin-top: 20px;">
+            <input type="submit" value="Submit" style="margin-top: -20px;">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
